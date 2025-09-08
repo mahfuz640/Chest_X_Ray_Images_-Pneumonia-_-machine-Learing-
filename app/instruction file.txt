@@ -1,0 +1,7 @@
+conda create -n pneumonia_env python=3.10 -y
+conda activate pneumonia_env
+pip install streamlit tensorflow pillow numpy
+streamlit run app.py
+
+
+
